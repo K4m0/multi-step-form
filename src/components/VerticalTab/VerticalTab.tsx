@@ -2,18 +2,14 @@ import React from "react";
 import CustomTab from "./CustomTab/CustomTab";
 import group10 from "../../assets/group10.png";
 
-interface TabPanelProps {
-  children?: React.ReactNode;
-  index: number;
-  value: number;
+interface VerticalTabProps {
+  tabIndex: number;
 }
 
-const VerticalTab = () => {
-  const [value, setValue] = React.useState(0);
-
-  const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
-    setValue(newValue);
-  };
+const VerticalTab = ({ tabIndex }: VerticalTabProps) => {
+  // const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
+  //   setValue(newValue);
+  // };
 
   return (
     <>
@@ -21,22 +17,22 @@ const VerticalTab = () => {
         <CustomTab
           tabIndex={1}
           tabTitle={"Your Info"}
-          isSelected={false}
+          isSelected={tabIndex === 1}
         ></CustomTab>
         <CustomTab
           tabIndex={2}
           tabTitle={"Select Plan"}
-          isSelected={false}
+          isSelected={tabIndex === 2}
         ></CustomTab>
         <CustomTab
           tabIndex={3}
           tabTitle={"Add-ons"}
-          isSelected={false}
+          isSelected={tabIndex === 3}
         ></CustomTab>
         <CustomTab
           tabIndex={4}
           tabTitle={"Summary"}
-          isSelected={false}
+          isSelected={tabIndex === 4}
         ></CustomTab>
         <img className="group10" src={group10} />
       </div>

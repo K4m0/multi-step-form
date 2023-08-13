@@ -5,7 +5,6 @@
   .stepDetailsTitle {
     color: var(--denim, #022959);
     font-feature-settings: "clig" off, "liga" off;
-    /* Heading */
     font-family: Ubuntu;
     font-size: 2rem;
     font-style: normal;
@@ -21,5 +20,22 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.5625rem;
+  }
+
+  .nextStepButton {
+    margin-top: 5.75rem;
+    border-radius: 0.5rem;
+    background: #164a8a;
+    width: 7.6875rem;
+    height: 48px;
+    flex-shrink: 0;
+    color: var(--white, #fff);
+    font-family: Ubuntu;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    right: 4.8rem;
   }
 }

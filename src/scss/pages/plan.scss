@@ -1,0 +1,52 @@
+.plan {
+  padding-left: 0px;
+}
+
+.goBackButton {
+  color: var(--grey, #9699aa);
+  font-family: Ubuntu;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 5.75rem;
+}
+
+.planToggleButton,
+.MuiToggleButton-root {
+  all: unset;
+  width: 138px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 8px !important;
+  border: 1px solid var(--border-color, #d6d9e6) !important;
+  background: var(--white, #fff);
+
+  &.Mui-selected,
+  &.Mui-selected:hover {
+    border-radius: 8px !important;
+    border: 1px solid var(--purple, #483eff) !important;
+    background: var(--very-light-grey, #f8f9ff) !important;
+  }
+}
+
+.planTitle {
+  color: var(--denim, #022959);
+  font-family: Ubuntu;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.toggleButtonGroup {
+  padding-left: 0px !important;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1.125rem;
+  padding: 10px;
+}
+
+.MuiAvatar-root {
+  all: unset;
+}
