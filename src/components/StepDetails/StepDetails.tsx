@@ -21,12 +21,10 @@ const StepDetails = ({
   setIndex,
 }: StepDetailsProps) => {
   const onSubmitPersonalInfo = (values: PersonalInfo, nextIndex: number) => {
-    console.log(values);
     setIndex(nextIndex);
   };
 
   const onSubmitPlan = (values: PersonalInfo, nextIndex: number) => {
-    console.log(values);
     setIndex(nextIndex);
   };
 

@@ -1,8 +1,7 @@
-import { Field, Form, Formik, FormikErrors } from "formik";
+import { Field, Form, Formik } from "formik";
 import { PersonalInfo } from "../models/PersonalInfo";
 import { Box, Grid } from "@mui/material";
 import * as Yup from "yup";
-import { FormEvent } from "react";
 
 interface PersonalInfoProps {
   personalInfoModel: PersonalInfo;
