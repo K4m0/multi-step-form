@@ -1,0 +1,78 @@
+$width_height: 2.0625rem;
+$selectedColor: #bee2fd;
+
+.customTab {
+  display: flex;
+  width: 8.4375rem;
+  height: 2.0625rem;
+  flex-shrink: 0;
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+
+  &.tabTitle {
+    display: inline-flex;
+    padding-right: 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+}
+
+.tabIndex {
+  margin-right: 1rem;
+  width: $width_height;
+  height: $width_height;
+  border-radius: 50%;
+  border: 1px solid;
+  line-height: $width_height;
+  text-align: center;
+
+  &.selected {
+    background-color: $selectedColor;
+    color: $selectedColor;
+  }
+  &.normal {
+    background-color: transparent;
+    color: white;
+  }
+}
+
+.index {
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.875rem;
+  font-style: normal;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+
+  &.selected {
+    color: #022959;
+  }
+  &.normal {
+    color: white;
+  }
+}
+
+.stepTitle {
+  color: var(--light-blue, #abbcff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Ubuntu;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title {
+  width: 6.4375rem;
+  color: var(--white, #fff);
+  font-family: Ubuntu;
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+}

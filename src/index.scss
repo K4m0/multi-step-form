@@ -1,0 +1,16 @@
+/*Abstracts*/
+@use "./scss/abstracts/variables";
+@use "./scss/abstracts/mixins";
+
+/*Base*/
+@use "./scss/base/base";
+@use "./scss/base/resets";
+
+/*Components*/
+@use "./scss/components/customTab";
+@use "./scss/components/verticalTab.scss";
+@use "./scss/components/container.scss";
+@use "./scss/components/stepDetails.scss";
+
+/*Pages*/
+@use "./scss/pages/personalInfo.scss";

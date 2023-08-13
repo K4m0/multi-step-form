@@ -1,0 +1,25 @@
+.stepDetails {
+  margin-top: 2.5rem;
+  margin-left: 5.25rem;
+
+  .stepDetailsTitle {
+    color: var(--denim, #022959);
+    font-feature-settings: "clig" off, "liga" off;
+    /* Heading */
+    font-family: Ubuntu;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .stepDetailsSubTitle {
+    color: var(--grey, #9699aa);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Ubuntu;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5625rem;
+  }
+}
