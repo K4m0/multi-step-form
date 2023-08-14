@@ -34,6 +34,12 @@ const Plans = [
 const Plan = ({ onSubmit }: PlanProps) => {
   const [alignment, setAlignment] = useState("Arcade");
 
+  useEffect(() => {
+    console.log(alignment);
+
+    return () => {};
+  }, [alignment]);
+
   const [frequencyChecked, setFrequencyChecked] = useState(false);
 
   return (

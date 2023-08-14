@@ -1,4 +1,3 @@
-import React from "react";
 import CustomTab from "./CustomTab/CustomTab";
 import group10 from "../../assets/group10.png";
 

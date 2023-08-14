@@ -7,11 +7,11 @@ const PersonalInfoEmpty: PersonalInfo = {
   phoneNumber: "",
 };
 
-const PersonalInfoTest: PersonalInfo = {
-  name: "Stephen King",
-  emailAddress: "stephenking@lorem.com",
-  phoneNumber: "+1 234 567 890",
-};
+// const PersonalInfoTest: PersonalInfo = {
+//   name: "Stephen King",
+//   emailAddress: "stephenking@lorem.com",
+//   phoneNumber: "+1 234 567 890",
+// };
 
 interface StepDetailsProps {
   index: number;
@@ -27,6 +27,7 @@ const StepDetails = ({
   setIndex,
 }: StepDetailsProps) => {
   const onSubmitPersonalInfo = (values: PersonalInfo, nextIndex: number) => {
+    console.log(values);
     setIndex(nextIndex);
   };
 
