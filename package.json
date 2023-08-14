@@ -14,6 +14,8 @@
     "@emotion/styled": "^11.11.0",
     "@fontsource/ubuntu": "^5.0.8",
     "@mui/material": "^5.14.4",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^14.0.0",
     "formik": "^2.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

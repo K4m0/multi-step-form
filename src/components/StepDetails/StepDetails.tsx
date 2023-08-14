@@ -2,6 +2,12 @@ import PersonalInfo from "../../pages/PersonalInfo";
 import Plan from "../../pages/Plan";
 
 const PersonalInfoEmpty: PersonalInfo = {
+  name: "",
+  emailAddress: "",
+  phoneNumber: "",
+};
+
+const PersonalInfoTest: PersonalInfo = {
   name: "Stephen King",
   emailAddress: "stephenking@lorem.com",
   phoneNumber: "+1 234 567 890",
@@ -24,7 +30,7 @@ const StepDetails = ({
     setIndex(nextIndex);
   };
 
-  const onSubmitPlan = (values: PersonalInfo, nextIndex: number) => {
+  const onSubmitPlan = (nextIndex: number) => {
     setIndex(nextIndex);
   };
 
