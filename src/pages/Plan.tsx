@@ -84,10 +84,10 @@ const Plan = ({ onSubmit }: PlanProps) => {
         </div>
       </div>
       <div className="backNextButtons">
-        <button className="goBackButton" type="submit">
+        <button className="goBackButton" onClick={() => onSubmit(1)}>
           Go Back
         </button>
-        <button className="nextStepButton" type="submit">
+        <button className="nextStepButton" onClick={() => onSubmit(3)}>
           Next Step
         </button>
       </div>
