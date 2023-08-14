@@ -3,6 +3,7 @@
 }
 
 .goBackButton {
+  cursor: pointer;
   color: var(--grey, #9699aa);
   font-family: Ubuntu;
   font-size: 1rem;
@@ -13,6 +14,7 @@
 }
 
 .planToggleButtonMonthly {
+  cursor: pointer;
   position: relative;
   width: 8.625rem;
   height: 10rem;
@@ -29,6 +31,7 @@
 }
 
 .planToggleButtonYearly {
+  cursor: pointer;
   position: relative;
   width: 8.625rem;
   height: 11.4375rem;

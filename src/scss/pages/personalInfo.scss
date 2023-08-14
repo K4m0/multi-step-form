@@ -26,6 +26,7 @@ $denimColor: #022959;
 }
 
 .personalInfoTextField {
+  cursor: pointer;
   padding-left: 1rem;
   border-radius: 8px;
   border: 1px solid var(--border-color, #d6d9e6);
